@@ -1,0 +1,100 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive
+}
+
+body {
+
+	 background-image: url(images/woman/back-ground-offers.jpg);
+}
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 9px 27px;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  
+  }
+  .nav-links a:hover{
+      transition: 0.5s;
+      color: #ed751f;
+     
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1em;
+  }
+  
+  .auth-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .auth-buttons .login,
+  .auth-buttons .signup {
+    padding: 5px 15px;
+    border: 1px solid #333;
+    background: none;
+    cursor: pointer;
+    font-size: 0.9em;
+    border-radius: 8px;
+  }
+  
+  .auth-buttons .signup {
+    background-color: #333;
+    color: white;
+  }
+  
+  /*end navbar*/
+
+  .game{
+
+    color: #FFCD90;
+    margin-top: 101px;
+    margin-left: 450px;
+    border: 2px solid;
+    text-align: center;
+    width: 40%;
+    height: 70%;
+    background-color: #e7e5df;
+    border-radius: 23px;
+}
+ 
+.button {
+  background-color:FFCD90;
+  color: black;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+    font-weight: bold;
+ padding: 0px 15px;
+ cursor: pointer;
+ 
+
+}
+
